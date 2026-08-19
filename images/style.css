@@ -1,0 +1,93 @@
+/* 전체 기본 설정 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* 페이지 전체 너비 */
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* 제목 */
+.title {
+  text-align: center;
+  font-size: 36px;
+}
+
+/* 메뉴 */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background-color: white;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* 각 영역 */
+section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: white;
+}
+
+/* 이미지 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 내용이 영역 밖으로 나가는 것 방지 */
+article {
+  overflow: hidden;
+}
+
+/* 표 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+/* 입력창 */
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* 제출 버튼 */
+.btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* 모바일 화면 */
+@media (max-width: 768px) {
+
+  main {
+    width: 95%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  nav {
+    padding: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+}
